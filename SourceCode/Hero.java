@@ -20,6 +20,7 @@ public class Hero extends Actor
         }
         checkKeys();
         checkCollision();
+        getWorld().showText("Health: " + HP, 50, 10);
     }
     /**
      * Check whether we are colliding with an asteroid.

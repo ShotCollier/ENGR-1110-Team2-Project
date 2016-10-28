@@ -1,11 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
- * Write a description of class Perry here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Perry extends Enemy 
 {
     private GreenfootImage perry = new GreenfootImage("rocketWithThrust.png");

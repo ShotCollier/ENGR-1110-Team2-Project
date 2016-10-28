@@ -1,10 +1,10 @@
 #Greenfoot properties
-#Fri Oct 28 15:56:55 CDT 2016
+#Fri Oct 28 16:58:26 CDT 2016
 editor.fx.0.height=700
 target2.width=80
 target5.naviview.expanded=true
-target7.showInterface=false
 target1.type=ClassTarget
+target7.showInterface=false
 mainWindow.height=735
 target2.editor.y=23
 target6.typeParameters=
@@ -100,8 +100,8 @@ target7.y=130
 target7.x=200
 target2.editor.height=749
 target5.y=190
-target7.editor.y=24
 target5.x=100
+target7.editor.y=24
 dependency4.type=UsesDependency
 target7.type=ClassTarget
 target7.editor.x=479
@@ -137,20 +137,20 @@ target7.height=50
 dependency5.type=UsesDependency
 dependency9.type=UsesDependency
 target3.editor.height=727
-target7.naviview.expanded=true
 target6.width=80
+target7.naviview.expanded=true
 readme.editor.y=79
 readme.editor.x=162
 target7.width=80
 target6.editor.height=672
 class.Asteroid.image=rock.png
 dependency3.from=Room
-class.Actor.superclass=
 target1.typeParameters=
+class.Actor.superclass=
 target3.width=80
 target4.width=80
-dependency7.from=Hero
 target1.editor.y=23
+dependency7.from=Hero
 target1.editor.x=285
 target5.width=80
 dependency4.to=Hero
