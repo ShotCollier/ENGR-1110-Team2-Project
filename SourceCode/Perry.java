@@ -8,17 +8,22 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Perry extends Enemy
 {
+    private GreenfootImage perry = new GreenfootImage("rocketWithThrust.png");
+    private int DistanceX;
+    private int DistanceY;
     /**
      * Act - do whatever the Perry wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    Hero h = new Hero();
-    int DistanceX = getX() - h.getX();
-    int DistanceY = getY() - h.getY();
-    
+    public Perry(){
+        setImage(perry);
+    }
     public void act() 
     {
         move();
+        Actor hero = (Actor)getWorld().getObjects(Hero.class).get(0);
+        int DistanceX = getX() - hero.getX();
+        int DistanceY = getY() - hero.getY();
     }
     public void move() {
         /* find the X of this and then X of Hero
