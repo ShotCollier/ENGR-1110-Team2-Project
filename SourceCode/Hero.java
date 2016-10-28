@@ -38,34 +38,34 @@ public class Hero extends Actor
             if(mercy == 0){
                 HP -= 1;
                 mercy = 1;
-            if(HP == 0){
-                Greenfoot.stop();
+                if(HP == 0){
+                    Greenfoot.stop();
+                }
             }
         }
-    }
         if(Greenfoot.isKeyDown("w")& (Room.timer%60)<30){
             if(moveOnce == 0 & getY()>12){
-            setLocation(getX(), getY()-25);
-            moveOnce = 1;
-        }
+                setLocation(getX(), getY()-25);
+                moveOnce = 1;
+            }
         }
         if(Greenfoot.isKeyDown("a")& (Room.timer%60)<30) {
             if(moveOnce == 0 & getX()>12){
-            setLocation(getX()-25, getY());
-            moveOnce = 1;
-        }
+                setLocation(getX()-25, getY());
+                moveOnce = 1;
+            }
         }        
-        if(Greenfoot.isKeyDown("s")& (Room.timer%60)<30) {
+        if(Greenfoot.isKeyDown("d")& (Room.timer%60)<30) {
             if(moveOnce == 0 & getY()<488){
-            setLocation(getX()+25, getY());
-            moveOnce = 1;
-        }
+                setLocation(getX()+25, getY());
+                moveOnce = 1;
+            }
         }     
-        if(Greenfoot.isKeyDown("d")& (Room.timer%60)<30){
+        if(Greenfoot.isKeyDown("s")& (Room.timer%60)<30){
             if(moveOnce == 0 & getY()<488){
-            setLocation(getX(), getY()+25);
-            moveOnce = 1;
-        }
+                setLocation(getX(), getY()+25);
+                moveOnce = 1;
+            }
         }
     }
 }

@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
 public abstract class Enemy extends Actor
 {
-    
+    private int moveOnce = 0;
     public Enemy()
     {
         
