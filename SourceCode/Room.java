@@ -7,6 +7,7 @@ public class Room extends World
     public Room() 
     {
         super(500, 500, 1);
+        Greenfoot.setSpeed(50);
         GreenfootImage background = new GreenfootImage("RoomBack1.png");
         GreenfootImage background2 = new GreenfootImage("RoomBack2.png");
         setBackground(background);
@@ -19,13 +20,12 @@ public class Room extends World
     public void act(){
         GreenfootImage background = new GreenfootImage("RoomBack1.png");
         GreenfootImage background2 = new GreenfootImage("RoomBack2.png");
+        backgroundMusic.playLoop();
      if((timer%60)==0){
         setBackground(background);
-        backgroundMusic.play();
      }
      if((timer%60)==30){
         setBackground(background2);
-        backgroundMusic.stop();
      }
      timer += 1;
     }
